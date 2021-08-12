@@ -1,0 +1,3 @@
+com\translantik\step_definitions\LoginStepDefs.class
+com\translantik\step_definitions\Hooks.class
+com\translantik\runners\CukesRunner.class

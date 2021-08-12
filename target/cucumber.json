@@ -1,0 +1,281 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-11T19:29:00.442Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.translantik.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Landing on All Cars page",
+        "description": "",
+        "id": "vehicle-ınformation;landing-on-all-cars-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3949000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.translantik.step_definitions.Hooks.closure()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12281000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user logged in as \"driver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"driver\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.translantik.step_definitions.LoginStepDefs.the_user_logged_in_as(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10751000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user navigates to \"Fleet\" \"Vehicles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fleet\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Vehicles\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.translantik.step_definitions.LoginStepDefs.the_user_navigates_to(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the table  of vehicle information",
+            "match": {
+              "location": "com.translantik.step_definitions.AllCarsStepDefs.user_should_see_the_table_of_vehicle_information()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-11T19:29:27.561Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.translantik.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Landing on All Cars page",
+        "description": "",
+        "id": "vehicle-ınformation;landing-on-all-cars-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4710000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.translantik.step_definitions.Hooks.closure()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10794000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user logged in as \"store manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store manager\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.translantik.step_definitions.LoginStepDefs.the_user_logged_in_as(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11480000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user navigates to \"Fleet\" \"Vehicles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fleet\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Vehicles\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.translantik.step_definitions.LoginStepDefs.the_user_navigates_to(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the table  of vehicle information",
+            "match": {
+              "location": "com.translantik.step_definitions.AllCarsStepDefs.user_should_see_the_table_of_vehicle_information()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-11T19:29:54.572Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.translantik.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Landing on All Cars page",
+        "description": "",
+        "id": "vehicle-ınformation;landing-on-all-cars-page;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 4043000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.translantik.step_definitions.Hooks.closure()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11069000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user logged in as \"sales manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sales manager\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.translantik.step_definitions.LoginStepDefs.the_user_logged_in_as(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10710000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user navigates to \"Fleet\" \"Vehicles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fleet\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Vehicles\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.translantik.step_definitions.LoginStepDefs.the_user_navigates_to(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see the table  of vehicle information",
+            "match": {
+              "location": "com.translantik.step_definitions.AllCarsStepDefs.user_should_see_the_table_of_vehicle_information()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Vehicle Information",
+    "description": "",
+    "id": "vehicle-ınformation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/VehicleInformation.feature",
+    "tags": []
+  }
+]
