@@ -34,7 +34,7 @@ public class LoginStepDefs {
     }
     @When("the user navigates to {string} {string}")
     public void the_user_navigates_to(String tab, String module) {
-        BrowserUtils.waitFor(5);
+        BrowserUtils.waitFor(7);
         new DashboardPage().navigateToModule(tab,module);
         BrowserUtils.waitFor(5);
 }
